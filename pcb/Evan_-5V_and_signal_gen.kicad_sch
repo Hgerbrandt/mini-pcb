@@ -6371,7 +6371,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.01u"
 			(at 162.56 33.0199 0)
 			(effects
 				(font
@@ -7974,7 +7974,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.01u"
 			(at 191.77 33.0199 0)
 			(effects
 				(font
@@ -8379,7 +8379,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.01u"
 			(at 176.53 33.0199 0)
 			(effects
 				(font
@@ -9191,7 +9191,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.01u"
 			(at 147.32 33.0199 0)
 			(effects
 				(font
