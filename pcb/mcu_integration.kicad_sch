@@ -9203,7 +9203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 40.3352 31.75 0)
 			(effects
 				(font
@@ -10217,7 +10217,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "capstone:SOD-323_1P7X1P25_ONS"
 			(at 217.17 144.78 0)
 			(effects
 				(font
@@ -10714,7 +10714,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "capstone:SOD-323_1P7X1P25_ONS"
 			(at 190.5 151.13 0)
 			(effects
 				(font
