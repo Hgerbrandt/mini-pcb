@@ -3051,23 +3051,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "SH3"
+				(at 0 6.096 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "AD844_SHIELD"
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "capstone:AD844 Shield"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3118,7 +3118,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3646,23 +3646,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "SH1"
+				(at -0.254 5.842 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "FOD814_SHIELD"
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "capstone:FOD814 Shield"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3713,7 +3713,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4002,23 +4002,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "SH2"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "REF192_SHIELD"
+				(at 0 4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "capstone:REF192 Shield"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4069,7 +4069,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7764,7 +7764,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24e85b1b-58b7-4c81-ab37-4afd879624b0")
-		(property "Reference" "U4"
+		(property "Reference" "SH1"
 			(at 249.936 80.518 0)
 			(effects
 				(font
@@ -7807,13 +7807,13 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "6a365cff-51ca-4f66-a576-37af0714dfb3")
 		)
 		(instances
 			(project ""
 				(path "/c0210bc3-f67f-47d8-a34e-f002a728adb2"
-					(reference "U4")
+					(reference "SH1")
 					(unit 1)
 				)
 			)
@@ -10590,9 +10590,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d70f12e7-bf09-4a63-b955-4b71446cfe02")
-		(property "Reference" "U7"
+		(property "Reference" "SH2"
 			(at 266.7 80.01 0)
 			(effects
 				(font
@@ -10601,7 +10600,7 @@
 			)
 		)
 		(property "Value" "REF192_SHIELD"
-			(at 266.7 82.55 0)
+			(at 266.7 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10635,13 +10634,13 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "3e25fd81-c145-4655-a0fd-7abf68eb02cd")
 		)
 		(instances
 			(project ""
 				(path "/c0210bc3-f67f-47d8-a34e-f002a728adb2"
-					(reference "U7")
+					(reference "SH2")
 					(unit 1)
 				)
 			)
@@ -10945,10 +10944,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ef470ed8-ea40-489b-ada7-34e6ba56f11c")
-		(property "Reference" "U8"
-			(at 248.92 95.25 0)
+		(property "Reference" "SH3"
+			(at 248.92 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10990,13 +10988,13 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "b2b6cab4-41bb-4246-838f-165e031c2b42")
 		)
 		(instances
 			(project ""
 				(path "/c0210bc3-f67f-47d8-a34e-f002a728adb2"
-					(reference "U8")
+					(reference "SH3")
 					(unit 1)
 				)
 			)
