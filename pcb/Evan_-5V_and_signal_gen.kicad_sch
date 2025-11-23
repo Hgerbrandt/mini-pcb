@@ -3628,12 +3628,6 @@
 		(uuid "384b1582-ec2a-4fdf-8600-e0a0d849e5f3")
 	)
 	(junction
-		(at 185.42 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ec2cc6a-c0a7-4bf5-8257-0d56cd5be0ef")
-	)
-	(junction
 		(at 186.69 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3718,12 +3712,6 @@
 		(uuid "8ca4e8e4-b20a-4a42-b12c-7f88e2f60a28")
 	)
 	(junction
-		(at 249.428 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "901a1e4c-e069-447d-987e-326517e0cd47")
-	)
-	(junction
 		(at 42.926 141.732)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3770,6 +3758,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df433a73-d713-46f7-aad3-be3911566190")
+	)
+	(junction
+		(at 250.19 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e33a1ed4-a693-47f3-aeba-b1ebac92abfe")
+	)
+	(junction
+		(at 184.15 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e50ec45f-e442-43fb-b8fb-43723cab42eb")
 	)
 	(junction
 		(at 143.51 25.4)
@@ -3822,16 +3822,6 @@
 			(type default)
 		)
 		(uuid "018061f2-425b-4b6c-9cfb-71986e29570e")
-	)
-	(wire
-		(pts
-			(xy 185.42 71.12) (xy 185.42 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01a634b0-707b-4112-9e3c-40d7be7b000b")
 	)
 	(wire
 		(pts
@@ -3963,6 +3953,16 @@
 		)
 		(uuid "0f762ed9-953e-45ce-86a8-d5b78f2796e9")
 	)
+	(wire
+		(pts
+			(xy 184.15 82.55) (xy 184.15 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd49f88-79f7-4516-b2ef-a3417d384a8a")
+	)
 	(polyline
 		(pts
 			(xy 117.348 17.272) (xy 117.348 116.078)
@@ -4075,7 +4075,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 49.53) (xy 181.61 49.53)
+			(xy 177.8 49.53) (xy 181.61 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4095,7 +4095,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 80.01) (xy 185.42 81.28)
+			(xy 184.15 71.12) (xy 184.15 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4172,6 +4172,16 @@
 			(type default)
 		)
 		(uuid "37a4e7c8-d757-4555-8c15-1612f00fd860")
+	)
+	(wire
+		(pts
+			(xy 166.37 59.69) (xy 166.37 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f34a4e-cf0e-447a-bc76-d88057194a31")
 	)
 	(wire
 		(pts
@@ -4302,6 +4312,16 @@
 			(type default)
 		)
 		(uuid "51e1193f-9893-4c42-8010-bdb635ac9560")
+	)
+	(wire
+		(pts
+			(xy 251.46 66.04) (xy 250.19 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523c25d0-ab03-490e-a00a-585523bd181b")
 	)
 	(wire
 		(pts
@@ -4465,7 +4485,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 49.53) (xy 168.91 49.53)
+			(xy 166.37 49.53) (xy 170.18 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4512,16 +4532,6 @@
 			(type dash)
 		)
 		(uuid "799e2bb9-1c44-419f-8cbb-3e6c8528a1fd")
-	)
-	(wire
-		(pts
-			(xy 242.57 58.42) (xy 249.428 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d6f59cf-1ab7-40e4-b707-bced55300e72")
 	)
 	(wire
 		(pts
@@ -4875,7 +4885,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 66.04) (xy 249.428 66.04)
+			(xy 243.84 66.04) (xy 250.19 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4925,7 +4935,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 80.01) (xy 185.42 80.01)
+			(xy 181.61 71.12) (xy 184.15 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4942,6 +4952,16 @@
 			(type default)
 		)
 		(uuid "c512aed3-8eda-4324-896a-64576d25435e")
+	)
+	(wire
+		(pts
+			(xy 251.46 63.5) (xy 251.46 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c68b8ec8-d6ba-45a8-8d14-bb9f31e6c430")
 	)
 	(wire
 		(pts
@@ -5025,6 +5045,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 81.28) (xy 250.19 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d798cfc6-24b0-4f35-9f6f-8a6649171365")
+	)
+	(wire
+		(pts
 			(xy 63.5 97.79) (xy 67.818 97.79)
 		)
 		(stroke
@@ -5085,7 +5115,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 38.1) (xy 143.51 40.64)
+			(xy 143.51 38.1) (xy 143.51 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5135,7 +5165,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 52.07) (xy 166.37 49.53)
+			(xy 166.37 50.8) (xy 166.37 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5213,16 +5243,6 @@
 		)
 		(uuid "f4c43ec1-f8e8-4290-99d3-3402cf69809b")
 	)
-	(wire
-		(pts
-			(xy 249.428 66.04) (xy 259.08 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4e18ba3-f41b-4662-9c98-a1c2100327c7")
-	)
 	(polyline
 		(pts
 			(xy 283.972 116.078) (xy 283.972 17.018)
@@ -5235,7 +5255,17 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 68.58) (xy 264.16 68.58)
+			(xy 184.15 71.12) (xy 185.42 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b522f0-448c-4670-91f1-7ee4d0448761")
+	)
+	(wire
+		(pts
+			(xy 262.89 68.58) (xy 265.43 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5272,6 +5302,16 @@
 			(type dash)
 		)
 		(uuid "fb466ad7-e8c6-4909-8b1f-5c401e1b4f18")
+	)
+	(wire
+		(pts
+			(xy 250.19 72.39) (xy 250.19 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe71196-5a91-41d1-9af8-2bfb5a7528e9")
 	)
 	(wire
 		(pts
@@ -5549,7 +5589,7 @@
 	)
 	(global_label "Signal Output"
 		(shape input)
-		(at 264.16 68.58 0)
+		(at 265.43 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5559,7 +5599,7 @@
 		)
 		(uuid "b1cc80ff-edeb-459d-9d3d-aa5b5b623b52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.2682 68.58 0)
+			(at 281.5382 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5637,7 +5677,7 @@
 	)
 	(global_label "-5V Output"
 		(shape input)
-		(at 181.61 80.01 180)
+		(at 181.61 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5647,7 +5687,7 @@
 		)
 		(uuid "f212be43-84e6-4365-9a20-11bf11d3ceaf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.5578 80.01 0)
+			(at 167.5578 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5840,73 +5880,6 @@
 			(project "mcu_integration"
 				(path "/c0210bc3-f67f-47d8-a34e-f002a728adb2/39708197-8fe0-4b5c-ba49-65ed06982da9"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 166.37 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02268b4a-01cd-4605-9744-b90ac6d54a23")
-		(property "Reference" "#PWR012"
-			(at 166.37 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 166.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f75d200d-a2e1-4e67-be92-0d1bd5857bc2")
-		)
-		(instances
-			(project "mcu_integration"
-				(path "/c0210bc3-f67f-47d8-a34e-f002a728adb2/39708197-8fe0-4b5c-ba49-65ed06982da9"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6247,6 +6220,75 @@
 			(project "mcu_integration"
 				(path "/c0210bc3-f67f-47d8-a34e-f002a728adb2/39708197-8fe0-4b5c-ba49-65ed06982da9"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 166.37 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15ada7d9-cb9c-4ebd-b7af-4445410335f4")
+		(property "Reference" "C47"
+			(at 157.988 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 157.988 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 167.3352 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3dff03ed-e7b7-4909-ada3-7b3f017a4186")
+		)
+		(pin "2"
+			(uuid "2e6760ba-390c-4e3d-b221-8040d7322395")
+		)
+		(instances
+			(project "mcu_integration"
+				(path "/c0210bc3-f67f-47d8-a34e-f002a728adb2/39708197-8fe0-4b5c-ba49-65ed06982da9"
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -6709,72 +6751,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 242.57 58.42 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "341a43c9-f2ef-43d8-9b47-20bd3094be58")
-		(property "Reference" "#PWR025"
-			(at 236.22 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 236.728 56.896 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62caa47f-b7d5-4160-9393-dfd6fc2b8c0c")
-		)
-		(instances
-			(project "mcu_integration"
-				(path "/c0210bc3-f67f-47d8-a34e-f002a728adb2/39708197-8fe0-4b5c-ba49-65ed06982da9"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
 		(at 33.274 184.658 270)
@@ -7115,7 +7091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "capstone:CAPC220145_88N_KEM-0.1u"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 159.7152 35.56 0)
 			(effects
 				(font
@@ -7159,7 +7135,7 @@
 	)
 	(symbol
 		(lib_id "capstone:C0805C104K5RAC7210")
-		(at 249.428 66.04 90)
+		(at 250.19 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7167,7 +7143,7 @@
 		(dnp no)
 		(uuid "4142ff53-ca1d-4457-abfb-e04cdc8520b7")
 		(property "Reference" "C44"
-			(at 250.952 59.944 90)
+			(at 257.556 74.676 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7176,7 +7152,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 251.46 62.23 90)
+			(at 258.064 76.962 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7185,7 +7161,7 @@
 			)
 		)
 		(property "Footprint" "capstone:CAPC220145_88N_KEM-0.1u"
-			(at 249.428 66.04 0)
+			(at 250.19 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7195,7 +7171,7 @@
 			)
 		)
 		(property "Datasheet" "C0805C104K5RAC7210"
-			(at 249.428 66.04 0)
+			(at 250.19 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7205,7 +7181,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 249.428 66.04 0)
+			(at 250.19 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7291,6 +7267,73 @@
 			(project "mcu_integration"
 				(path "/c0210bc3-f67f-47d8-a34e-f002a728adb2/39708197-8fe0-4b5c-ba49-65ed06982da9"
 					(reference "I2C_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 250.19 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57deb5f9-c49c-44b0-a5b7-3abbc4314dce")
+		(property "Reference" "#PWR012"
+			(at 250.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c04d4ecb-1116-4c33-a1ba-7230989127a7")
+		)
+		(instances
+			(project "mcu_integration"
+				(path "/c0210bc3-f67f-47d8-a34e-f002a728adb2/39708197-8fe0-4b5c-ba49-65ed06982da9"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7826,7 +7869,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 143.51 40.64 0)
+		(at 143.51 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7835,7 +7878,7 @@
 		(fields_autoplaced yes)
 		(uuid "82136a9b-5ac3-4375-8012-922f676bedeb")
 		(property "Reference" "#PWR02"
-			(at 143.51 46.99 0)
+			(at 143.51 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7844,7 +7887,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 45.72 0)
+			(at 143.51 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7852,7 +7895,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 40.64 0)
+			(at 143.51 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7861,7 +7904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 40.64 0)
+			(at 143.51 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7870,7 +7913,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 40.64 0)
+			(at 143.51 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8313,7 +8356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "capstone:CAPC220145_88N_KEM-0.1u"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 188.9252 35.56 0)
 			(effects
 				(font
@@ -8425,7 +8468,7 @@
 	)
 	(symbol
 		(lib_id "capstone:C0805C104K5RAC7210")
-		(at 185.42 81.28 270)
+		(at 184.15 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8433,7 +8476,7 @@
 		(dnp no)
 		(uuid "aea27d95-7ba5-4c51-8598-f04c81731147")
 		(property "Reference" "C18"
-			(at 188.468 85.598 90)
+			(at 186.944 76.708 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8442,7 +8485,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 188.468 83.312 90)
+			(at 186.944 78.74 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8450,8 +8493,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "capstone:CAPC220145_88N_KEM-0.1u"
-			(at 185.42 81.28 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 184.15 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8461,7 +8504,7 @@
 			)
 		)
 		(property "Datasheet" "C0805C104K5RAC7210"
-			(at 185.42 81.28 0)
+			(at 184.15 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8471,7 +8514,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 81.28 0)
+			(at 184.15 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8628,7 +8671,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 88.9 0)
+		(at 184.15 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8637,7 +8680,7 @@
 		(fields_autoplaced yes)
 		(uuid "baada389-69c3-4040-8a86-667c92fae5f0")
 		(property "Reference" "#PWR024"
-			(at 185.42 95.25 0)
+			(at 184.15 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8646,7 +8689,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 93.98 0)
+			(at 184.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8654,7 +8697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 88.9 0)
+			(at 184.15 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8663,7 +8706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 88.9 0)
+			(at 184.15 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8672,7 +8715,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 88.9 0)
+			(at 184.15 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8720,7 +8763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "capstone:CAPC220145_88N_KEM-0.1u"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 173.6852 35.56 0)
 			(effects
 				(font
@@ -8764,7 +8807,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 172.72 49.53 270)
+		(at 173.99 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8772,7 +8815,7 @@
 		(dnp no)
 		(uuid "bef24c36-8b77-4cac-9c98-92b18e8ad6e3")
 		(property "Reference" "R9"
-			(at 170.688 46.99 90)
+			(at 171.958 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8781,7 +8824,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 171.45 52.07 90)
+			(at 172.72 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8790,7 +8833,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 172.72 47.752 90)
+			(at 173.99 47.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8799,7 +8842,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 49.53 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8808,7 +8851,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 172.72 49.53 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9250,7 +9293,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 259.08 66.04 0)
+		(at 251.46 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9258,7 +9301,7 @@
 		(dnp no)
 		(uuid "d5114aab-70c9-4912-a981-7f66e360fa51")
 		(property "Reference" "#PWR026"
-			(at 259.08 69.85 0)
+			(at 251.46 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9267,7 +9310,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 259.08 62.23 0)
+			(at 251.46 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9275,7 +9318,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 66.04 0)
+			(at 251.46 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9284,7 +9327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 66.04 0)
+			(at 251.46 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9293,7 +9336,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 66.04 0)
+			(at 251.46 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9377,6 +9420,73 @@
 			(project "mcu_integration"
 				(path "/c0210bc3-f67f-47d8-a34e-f002a728adb2/39708197-8fe0-4b5c-ba49-65ed06982da9"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 166.37 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db452898-cf41-4779-8d23-dbc38d8bbdd7")
+		(property "Reference" "#PWR033"
+			(at 166.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c471bfd9-4146-4e1c-a9bf-44afd23f0a5b")
+		)
+		(instances
+			(project "mcu_integration"
+				(path "/c0210bc3-f67f-47d8-a34e-f002a728adb2/39708197-8fe0-4b5c-ba49-65ed06982da9"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9604,7 +9714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "capstone:CAPC220145_88N_KEM-0.1u"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 144.4752 35.56 0)
 			(effects
 				(font
