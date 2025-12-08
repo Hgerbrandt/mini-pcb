@@ -6252,7 +6252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 167.3352 58.42 0)
 			(effects
 				(font
@@ -7091,7 +7091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 159.7152 35.56 0)
 			(effects
 				(font
@@ -8356,7 +8356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 188.9252 35.56 0)
 			(effects
 				(font
@@ -8763,7 +8763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 173.6852 35.56 0)
 			(effects
 				(font
@@ -9714,7 +9714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 144.4752 35.56 0)
 			(effects
 				(font
@@ -9852,7 +9852,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "capstone:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 131.1148 101.6 0)
 			(effects
 				(font
