@@ -3535,6 +3535,16 @@
 		)
 		(uuid "52624d61-ff05-4a7e-97d9-09f80c670232")
 	)
+	(text "C47: Added to remove DC Offset"
+		(exclude_from_sim no)
+		(at 147.066 58.928 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "54db0a4c-49eb-4610-959d-85aa66bc4adf")
+	)
 	(text "Power Connector"
 		(exclude_from_sim no)
 		(at 15.748 176.276 0)
@@ -3561,7 +3571,7 @@
 		)
 		(uuid "b1a038ad-9545-44f4-bb91-81be90e6a2a1")
 	)
-	(text "I2C Connector"
+	(text "I2C Buffer"
 		(exclude_from_sim no)
 		(at 16.256 110.998 0)
 		(effects
